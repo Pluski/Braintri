@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BraintriInterviewProject</string>
+    <string name="tumblr_name_text">Search Tumblr</string>
+    <string name="search">Search</string>
+</resources>
