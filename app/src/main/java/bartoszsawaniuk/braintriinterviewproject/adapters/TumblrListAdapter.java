@@ -63,7 +63,7 @@ public class TumblrListAdapter extends ArrayAdapter<TumblrPost> {
         }
 
         if(post.getSlug() != null)
-            holder.textView.setText(post.getLinkText());
+            holder.textView.setText(post.getSlug());
         if(post.getPhotoURL75() != null)
             holder.view.loadUrl(post.getPhotoURL75());
 
